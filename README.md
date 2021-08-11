@@ -97,12 +97,12 @@ Usage:
 1. You should not query the analysis result within 30 seconds after you submit the sample, because our system needs at least 30 seconds to process a submission. Read our "About" page for more information.
 2. Every call of our API will be counted in your quota. Currently, all issued API keys will have a maximum of 1000 submissions and 5000 queries per day. The quotas could be changed from time to time.
 3. The analysis waiting time could be longer if there's more samples coming and when we have limited computing resources on our server side.
-4. Our server at this time may not be stable, if you're waiting for too long for a simple sample, say, 5 minutes, it may indicate an error in our system or our system is not available at this moment, you may terminate the analysis result querying process in this situation  (and notify us via email or Twitter) . You may also want to submit a simple test file first if you're uploading a lot of samples at one time.
+4. Our server at this time may not be stable, if you're waiting for too long for a simple sample, say, more than 15 minutes, it may indicate an error in our system or our system is not available at this moment, you may terminate the analysis result querying process in this situation  (and notify us via email or Twitter) . You may also want to submit a simple test file first if you're uploading a lot of samples at one time.
 
 Finally, we hope you find our service useful! :-)
 
 
 ## License
-Licensed GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007 see https://github.com/EXPMON/PubAPIs/blob/master/LICENSE.md
+Licensed GNU GENERAL PUBLIC LICENSE, Version 3, see https://github.com/EXPMON/PubAPIs/blob/master/LICENSE.md
 
 Copyright (C) 2021 EXPMON Ltd.
